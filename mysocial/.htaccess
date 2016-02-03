@@ -1,0 +1,5 @@
+<IfModule mod_php5.c>
+php_flag display_errors on
+php_value error_reporting -1
+php_value date.timezone Etc/GMT-4
+</IfModule>

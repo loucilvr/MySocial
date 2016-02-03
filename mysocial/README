@@ -1,0 +1,25 @@
+MySocial Assignment for CGS2835
+Version 4, July 2 2014
+
+Geoffery L. Miller
+geoffery.miller@gmail.com
+
+A package of code to teach the value of modular design, MVC basics (without classes or a directory structure), and how to work with PHP and MySQL.  
+
+Database schematic will be added to this codebase soon.  connect-sample.php must be renamed to connect.php and modified for your database.
+
+This code is released for educational purposes only.  The organization is intended to be highly readable and simple to understand.  This comes with cost of not providing a particularly robust framework for adding new code and features.
+
+Special notes:
+It would, of course, be better policy to use prepared statements.  This project's sql injection preventative measures are the use of mysql_query which only allows 1 query at a time, strip_tags, mysql_real_escape_string, and using quotes around variable input.  Improving the security policy is left as an exercise to the student. 
+
+Pictures are stored in the SQL database and echoed.  Improved performance via file storage, caching, http expiry headers is left as an exercise to the student.
+
+Copyright (c) 2014, Geoffery L. Miller
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

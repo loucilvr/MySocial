@@ -1,0 +1,215 @@
+body {
+	
+	font-family:'Century Gothic';
+    margin:0;
+
+}
+
+html { 
+  background: url('http://i.imgur.com/81UEair.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;    
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 19.5px;
+    color:#40e0d0;
+    padding: 0px;
+    margin:0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #40e0d0;
+    font-family:'Century Gothic';
+    font-weight: bold;    
+}
+
+h3 {
+    font-size: 35px;
+    color: #40e0d0;
+    font-weight: bold;    
+}
+
+
+
+a:link {
+	color:#ffffff;
+	text-decoration:none;
+}
+a:visited {
+	color:#ffffff; 
+	text-decoration:none;
+}    
+a:hover {
+	color:#ddddff;
+	text-decoration:none;
+}
+a img {
+	border-width: 0;
+}
+
+#container{
+    width: 890px;
+    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.3); 
+    font-size: 14px;
+    color: #eaeaea;
+    height:;
+    margin: 7 auto;
+    margin-top:220px;
+    margin-bottom: 100px;
+	padding: 7px;
+	background-color: #2d2b2b;
+	overflow: auto;
+	border-radius:0px;
+
+}
+
+#topcontainer{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    padding: 0px;
+	padding-bottom: 40px;
+	background-color: #000000; 
+            /*PREVIOUS COLOR: #40e0d0*/;
+	height:130px;
+    width: 100%;
+    opacity:;
+}
+
+
+
+#login	{
+	float:right;
+}
+
+#navigation	{
+	float:center;
+    background-color:;
+    height: ;
+    background-size:cover;
+    text-transform:uppercase;
+	text-decoration:none;
+    font-family:'Century Gothic';
+	font-size:15px;
+	text-align:center;
+	margin: 5 auto;
+	width: 100%;
+	padding: 0px;
+	
+}
+
+#header	{
+    background-image: url('http://i.imgur.com/MkaKDmI.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+    font-family:'Just Another Hand';
+    font-size: 100px;
+    text-align: center;
+    height:180px;
+    opacity:;
+  
+}
+
+#subheader	{
+    font-size: 18px;
+    text-align: left;
+    margin: 5px;
+}
+
+#form {
+	background-color: #c0c0c0;
+    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.2); 
+	width: 500px;
+    height: 500px;
+    margin: 30 auto;
+    margin-top:240px;
+    margin-bottom: 100px;
+	padding: 7px;
+    border-radius: 400px;
+}
+
+#picture {
+    padding: 5px;
+    border-color:white;
+    border-width: 1px;
+    float: left;
+}
+
+
+/*POSTS ON HOME PAGE*/
+#posts {
+	font-family:'Calibri';
+    font-size: 15px;
+    background-color:;
+        /*PREVIOUS COLOR #FFB529*/
+    color: #d3d3d3;
+	width: 460px;
+    float:;
+    border-radius:4px;
+    padding:5px;
+}
+
+/*POSTS ON PROFILE PAGE*/
+#posts_all {
+    font-family:'Calibri';
+    font-size:15px;
+    color: #d8d8d8;
+	background-color: ;
+	width: 580px;
+    height: 20%;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    float:right;
+}
+
+#newpost {
+    width: 70%;
+    font-size: 14px;
+    float:right;
+}
+	
+#user_container {
+    background:;
+    width: 90px;
+    height: 90px; 
+	margin: 10px;
+    width: 50%;
+	margin: 5px;
+}
+
+#friend_container {
+    
+	width: 30%;
+    height: 80px;
+	margin: 10px;
+   
+}
+
+#friend_post_container {
+    width:;
+    margin: 5px;
+	float:right;
+}
+
+
+#user { 
+    min-height: 90px;
+	padding: 8px;
+	margin: 10px;
+	overflow: hidden;
+	max-width: 140px;
+	position:relative;
+	float:left; 
+	text-align: center;
+	border-width: 1px;
+    border-color: white;
+	border-style:;
+    border-radius: 4px;
+}
