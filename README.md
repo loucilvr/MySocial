@@ -1,4 +1,4 @@
-# Hello world!
+# Welcome to Connect+
 
-This is a placeholder README file for your PHP project. Update it with information about your
-project, so others can find out more.
+Connect+ is a social network built for a final project for my web dev class at FSU. This application utilizes HTML, CSS, PHP, Javascript and MySQL. 
+This social network allows the user to create an account, upload a picture and connect with other people.
